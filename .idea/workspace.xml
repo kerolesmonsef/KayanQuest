@@ -27,6 +27,16 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\wamp64\www\KayanQuest\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
@@ -126,6 +136,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1b5hW9dMQzBOul0EE7SReLg1g0k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -162,7 +173,7 @@
       <updated>1587927890841</updated>
       <workItem from="1587927894312" duration="11324000" />
       <workItem from="1587999789128" duration="21036000" />
-      <workItem from="1588094603428" duration="10990000" />
+      <workItem from="1588094603428" duration="11721000" />
     </task>
     <servers />
   </component>
@@ -186,9 +197,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="120" width="709" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588095463079" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588105920213">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588110078339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588105920213" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588110078339" />
   </component>
 </project>

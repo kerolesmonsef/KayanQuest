@@ -9,7 +9,7 @@ class LoginController extends Controller
 {
     public function testlogAdmin()
     {
-        $user = User::find(1);
+        $user = User::find(2);
         auth()->login($user);
         return redirect(url('/home'));
     }

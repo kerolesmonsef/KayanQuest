@@ -17,13 +17,14 @@
                         <div class="card-body ">
                             <div class="row">
                                 <div class="col-sm-3">
-
-                                    <button data-toggle="modal"
-                                            data-target=".remove_the_question"
-                                            class="btn-danger btn delete_the_question_button"
-                                            data-delete-url="{{ route('question.destroy',['question'=>$question->id]) }}">
-                                        مسح السؤال
-                                    </button>
+                                    @if(auth()->user()->isAdmin())
+                                        <button data-toggle="modal"
+                                                data-target=".remove_the_question"
+                                                class="btn-danger btn delete_the_question_button"
+                                                data-delete-url="{{ route('question.destroy',['question'=>$question->id]) }}">
+                                            مسح السؤال
+                                        </button>
+                                    @endif
                                 </div>
                                 <div class="col-sm-9 text-right">
                                 <span class="p-r-2" style="padding-right: 10px;color: {{ env('MAIN_COLOR') }}">
